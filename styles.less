@@ -1,0 +1,58 @@
+@main-color: Blue;
+@base-size: 20px;
+@app-root: "http://localhost:8000/";
+
+
+#contact-module {
+  .fonts() {
+    @base-size: 14px;
+    font-family: Impact, 'Arial Narrow Bold', serif;
+    font-size: @base-size;
+  }
+}
+
+h1 {
+font-size: @base-size + 6px;
+}
+
+// form {
+//   background-image: url(@{app-root}images/background.jpg);
+// }
+
+input[type=text], select {
+  #contact-module > .fonts();
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid darken(@main-color, 10%);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  [type=submit] {
+    width: 100%;
+    background-color: @main-color;
+    color: white;
+    font-size: @base-size;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    [type=submit]:hover {
+      background-color: plum;
+    }
+    
+
+
+  }
+  
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
