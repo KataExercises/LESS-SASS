@@ -1,5 +1,5 @@
 # LESS-SASS
-The language of SASS is called SassScript. The preprocessor was originally built on the markup language YAML before it was introduced as its own script language with SASS you have some options that aren’t offered by CSS alone:
+#### The language of SASS is called SassScript. The preprocessor was originally built on the markup language YAML before it was introduced as its own script language with SASS you have some options that aren’t offered by CSS alone:
 
 Variables: With SASS, you can save information in variables to be used again later. So it’s possible, for example, to centrally store a color value under a catchier variable.
 Mathematical functions: In SASS, you can also use mathematical operations like +, -, *, /, or %. This allows you to influence size specifications, for example.
