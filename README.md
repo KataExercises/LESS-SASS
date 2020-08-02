@@ -12,7 +12,6 @@ Nesting: CSS doesn’t allow you to work with nesting in the code. SASS, though,
 Inheritances: It’s possible to inherit properties from one selector to another. This saves some writing effort and keeps the code slimmer.
 Partial files: To integrate code elements into a SASS file, you can also use partials. These are files that only have to contain a few lines of CSS and are imported into a SASS file by command.
 
-
 LESS has also established itself in developer circles. This stylesheet language is strongly oriented around CSS and resembles SCSS in its syntax. Both preprocessors share some of the same properties: Both SASS and LESS allow for the use of mixins and variables. One difference, though, is that SASS is based on Ruby, while LESS uses JavaScript. But even this doesn’t give either of the preprocessors an advantage over the others.
 
 The real differences are found instead in the logical functions: LESS gives users the opportunity to only activate mixins when specific situations occur. This is a helpful feature, but it represents the extent of logical links in LESS. SASS, on the other hand, offers loops and case distinctions as known from programming languages.
